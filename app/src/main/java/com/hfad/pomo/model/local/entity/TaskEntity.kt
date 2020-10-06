@@ -22,7 +22,7 @@ data class TaskEntity(
     val idTask: Long,
 
     @ColumnInfo(name = "goal")
-    val goal: String,
+    val goal: String?,
 
     @ColumnInfo(name = "estimatedPomodorosCount")
     val estimatedPomodorosCount: Int,
@@ -35,7 +35,5 @@ data class TaskEntity(
 
     @ColumnInfo(name = "scheduledTime")
     val scheduledTime: Int?,
-
-    @ColumnInfo(name = "projectID")
     val projectId: Long?
 )
