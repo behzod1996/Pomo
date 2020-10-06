@@ -1,8 +1,10 @@
 package com.hfad.pomo.model.local.dao
 
 import androidx.room.*
-import com.hfad.pomo.model.local.entity.TaskEntity
+
 import com.hfad.pomo.model.local.entity.TaskDto
+import com.hfad.pomo.model.local.entity.TaskEntity
+
 
 @Dao
 interface TaskDao {

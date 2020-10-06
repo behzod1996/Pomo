@@ -31,8 +31,8 @@ interface PomoDao {
     suspend fun insert(pomo: PomoEntity): Long
 
     @Update
-    suspend fun update(pomo: PomoEntity)
+    suspend fun update(pomodoro: PomoEntity)
 
     @Delete
-    suspend fun delete(pomod: PomoEntity)
+    suspend fun delete(pomodoro: PomoEntity)
 }
