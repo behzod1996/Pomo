@@ -14,7 +14,7 @@ import com.hfad.pomo.model.local.entity.TaskEntity
 
 
 @TypeConverters(Converters::class)
-@Database (entities = [PomoEntity::class, TaskEntity::class,ProjectEntity::class], version = 2)
+@Database (entities = [PomoEntity::class, TaskEntity::class,ProjectEntity::class], version = 3)
 abstract class PomoDatabase : RoomDatabase(){
 
     abstract fun getPomoDao() : PomoDao
