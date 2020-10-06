@@ -35,7 +35,5 @@ data class TaskEntity(
 
     @ColumnInfo(name = "scheduledTime")
     val scheduledTime: Int?,
-
-    @ColumnInfo(name = "projectID")
     val projectId: Long?
 )
