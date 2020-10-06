@@ -1,8 +1,8 @@
-package com.hfad.pomo.repo
+package com.hfad.pomo.repository
 
 import com.hfad.pomo.model.Project
 import com.hfad.pomo.model.local.dao.ProjectDao
-import com.hfad.pomo.repo.converter.ProjectConverter
+import com.hfad.pomo.repository.converter.ProjectConverter
 
 interface ProjectRepository {
 

@@ -1,10 +1,10 @@
-package com.hfad.pomo.repo
+package com.hfad.pomo.repository
 
 import com.hfad.pomo.model.Pomo
 import com.hfad.pomo.model.local.dao.PomoDao
 import com.hfad.pomo.model.local.dao.ProjectDao
 import com.hfad.pomo.model.local.dao.TaskDao
-import com.hfad.pomo.repo.converter.PomoConverter
+import com.hfad.pomo.repository.converter.PomoConverter
 import java.util.*
 
 interface PomoRepository {

@@ -1,9 +1,9 @@
-package com.hfad.pomo.repo
+package com.hfad.pomo.repository
 
 
 import com.hfad.pomo.model.Task
 import com.hfad.pomo.model.local.dao.TaskDao
-import com.hfad.pomo.repo.converter.TaskConverter
+import com.hfad.pomo.repository.converter.TaskConverter
 
 interface TaskRepository {
 

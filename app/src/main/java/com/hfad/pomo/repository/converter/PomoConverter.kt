@@ -1,4 +1,4 @@
-package com.hfad.pomo.repo.converter
+package com.hfad.pomo.repository.converter
 
 import com.hfad.pomo.model.Pomo
 import com.hfad.pomo.model.local.entity.PomoDto
