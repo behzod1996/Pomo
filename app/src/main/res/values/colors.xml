@@ -3,4 +3,13 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+
+    <color name="colorCinder">#08080A</color>
+    <color name="colorBlackCurrant">#322A41</color>
+    <color name="colorThunderBird">#C2291D</color>
+    <color name="colorAbbey">#525357</color>
+    <color name="colorDoryBlue">#1B4BB3</color>
+    <color name="colorDenim">#1950CC</color>
+    <color name="colorGraySuit">#D0CFD4</color>
+    <color name="colorSandra">#B78F74</color>
 </resources>

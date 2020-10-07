@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Pomo</string>
+
+    <string name="stay_focus_25_minutes">Stay Focus 25 minutes</string>
+    <string name="startBtn">Start</string>
+    <string name="pauseBtn">Pause</string>
+    <string name="stopBtn">Stop</string>
+    <string name="setting">Setting</string>
+    <string name="current_task">Current Task</string>
+    <string name="statistics">Statistics</string>
 </resources>
