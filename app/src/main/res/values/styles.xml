@@ -1,10 +1,77 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
+        <item name="android:statusBarColor">@color/colorStatusBar</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- BottomSheetDialogStyle -->
+    <style name="Theme.BottomSheetDialog.Round" parent="ThemeOverlay.MaterialComponents.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Widget.BottomSheet.Modal.Round</item>
+    </style>
+
+    <style name="Widget.BottomSheet.Modal.Round" parent="Widget.MaterialComponents.BottomSheet.Modal">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.BottomSheet.Round</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.BottomSheet.Round" parent="">
+        <item name="cornerSize">0dp</item>
+        <item name="cornerFamilyTopRight">rounded</item>
+        <item name="cornerFamilyTopLeft">rounded</item>
+        <item name="cornerSizeTopRight">@dimen/space_24</item>
+        <item name="cornerSizeTopLeft">@dimen/space_24</item>
+    </style>
+
+
+    <!-- MaterialButtonStyle -->
+    <style name="Widget.Button" parent="Widget.MaterialComponents.Button">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/space_16</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Button</item>
+    </style>
+
+    <style name="ShapeAppearance.Button" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/space_16</item>
+    </style>
+
+
+    <!-- CardView -->
+    <style name="Widget.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardElevation">@dimen/cardElevation</item>
+        <item name="rippleColor">@color/colorPrimary</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.CardView</item>
+    </style>
+
+    <style name="ShapeAppearance.CardView" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/space_16</item>
+    </style>
+
+
+    <!-- TextInputLayout -->
+    <style name="Widget.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxBackgroundColor">@color/colorBackground</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.TextInputLayout</item>
+    </style>
+
+    <style name="ShapeAppearance.TextInputLayout" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/space_8</item>
+    </style>
+
+
+    <!-- TextAppearance -->
+    <style name="TextAppearance.Typography.Headline6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/colorHeadline6</item>
+    </style>
+
+    <style name="TextAppearance.Typography.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
     </style>
 
 </resources>
